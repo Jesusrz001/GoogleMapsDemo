@@ -1,6 +1,7 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.models;
 
 import java.util.ArrayList;
+import mobile.jesus.com.banklocator.models.Place;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -9,7 +10,7 @@ import org.json.JSONObject;
  * Created by jr02815 on 7/21/2017.
  */
 
-class PlacesResponse {
+public class PlacesResponse {
     private ArrayList<Place> places = new ArrayList<>();
 
     public PlacesResponse(String s) {

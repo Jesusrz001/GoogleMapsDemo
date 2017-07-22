@@ -1,9 +1,10 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.activities;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import mobile.jesus.com.banklocator.R;
 import mobile.jesus.com.banklocator.databinding.DetailActivityBinding;
 
 /**

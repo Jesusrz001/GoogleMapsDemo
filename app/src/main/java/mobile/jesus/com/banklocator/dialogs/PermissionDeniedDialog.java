@@ -1,4 +1,4 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.dialogs;
 
 /**
  * Created by jr02815 on 7/21/2017.
@@ -10,6 +10,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.widget.Toast;
+import mobile.jesus.com.banklocator.R;
 
 /**
  * A dialog that displays a permission denied message.

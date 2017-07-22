@@ -1,4 +1,4 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.activities;
 
 import android.Manifest;
 import android.content.Intent;
@@ -24,6 +24,14 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import mobile.jesus.com.banklocator.util.PermissionUtil;
+import mobile.jesus.com.banklocator.models.PlacesResponse;
+import mobile.jesus.com.banklocator.network.QueryCallback;
+import mobile.jesus.com.banklocator.network.QueryMapApi;
+import mobile.jesus.com.banklocator.R;
+import mobile.jesus.com.banklocator.dialogs.PermissionDeniedDialog;
+import mobile.jesus.com.banklocator.models.Place;
+import mobile.jesus.com.banklocator.constants.LocatorConstants;
 
 public class MapsActivity extends AppCompatActivity
         implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,

@@ -1,8 +1,9 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.util;
 
 import android.content.pm.PackageManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import mobile.jesus.com.banklocator.dialogs.PermissionDialog;
 
 /**
  * Created by jr02815 on 7/21/2017.

@@ -1,4 +1,4 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;

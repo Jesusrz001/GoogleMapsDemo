@@ -1,4 +1,4 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.dialogs;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.DialogFragment;
 import android.widget.Toast;
+import mobile.jesus.com.banklocator.R;
 
 /**
  * Created by jr02815 on 7/21/2017.

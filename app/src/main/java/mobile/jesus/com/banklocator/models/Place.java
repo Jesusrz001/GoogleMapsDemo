@@ -1,4 +1,4 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -7,7 +7,7 @@ import org.json.JSONObject;
  * Created by jr02815 on 7/21/2017.
  */
 
-class Place {
+public class Place {
     private Location location;
     private String id;
     private String address;

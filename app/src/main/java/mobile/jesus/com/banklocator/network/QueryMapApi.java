@@ -1,4 +1,4 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.network;
 
 import android.os.AsyncTask;
 import android.util.Log;

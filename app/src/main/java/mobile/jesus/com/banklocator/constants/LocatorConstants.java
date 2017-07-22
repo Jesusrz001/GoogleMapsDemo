@@ -1,4 +1,4 @@
-package mobile.jesus.com.banklocator;
+package mobile.jesus.com.banklocator.constants;
 
 /**
  * Created by jr02815 on 7/21/2017.
